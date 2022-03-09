@@ -1,0 +1,12 @@
+spring:
+  codec:
+    max-in-memory-size: 10MB
+aws:
+  config:
+    region: us-east-2
+    access-key: AKIA5Z6LZFXPAWUQ2LFZ
+    secret-key: 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
+    service-endpoint: dynamodb.us-east-2.amazonaws.com
+service:
+  http:
+    primary-url: http://samyappprimary-env.eba-avd5ffkm.us-east-2.elasticbeanstalk.com/
