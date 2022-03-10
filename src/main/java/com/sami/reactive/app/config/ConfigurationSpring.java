@@ -13,11 +13,20 @@ public class ConfigurationSpring {
 
 	@Value("${service.http.primary-url}")
 	private String primaryEndpoint;
+	
+	@Value("${service.http.process-file-url}")
+	private String officeEndpoint;
 
 	@Bean(name = "beanSamiPrimary")
 	public WebClient getWebClient(WebClient.Builder webClientBuilder) {
 		log.info("primaryEndpoint {}", primaryEndpoint);
 		return webClientBuilder.baseUrl(primaryEndpoint).build();
+	};
+	
+	@Bean(name = "beanSamiOffice")
+	public WebClient getWebClientOffice(WebClient.Builder webClientBuilder) {
+		log.info("primaryEndpoint {}", officeEndpoint);
+		return webClientBuilder.baseUrl(officeEndpoint).build();
 	};
 
 }

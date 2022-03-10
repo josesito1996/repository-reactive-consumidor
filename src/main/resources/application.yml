@@ -10,3 +10,4 @@ aws:
 service:
   http:
     primary-url: http://samyappprimary-env.eba-avd5ffkm.us-east-2.elasticbeanstalk.com/
+    process-file-url: http://samyofficefiles-env.eba-zh8kupum.us-east-2.elasticbeanstalk.com/

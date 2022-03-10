@@ -9,9 +9,6 @@ import com.amazonaws.services.lambda.AWSLambda;
 import com.amazonaws.services.lambda.model.InvokeRequest;
 import com.amazonaws.services.lambda.model.InvokeResult;
 import com.google.gson.Gson;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
 import com.sami.reactive.app.models.request.LambdaFileRequest;
 import com.sami.reactive.app.service.LambdaService;
 
