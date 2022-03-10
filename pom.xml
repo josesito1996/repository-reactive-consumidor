@@ -96,6 +96,7 @@
             </plugin>
           <!-- End Plugin -->
 		</plugins>
+		<finalName>repository-reactive</finalName>
 	</build>
 
 </project>
