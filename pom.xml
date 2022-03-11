@@ -84,7 +84,7 @@
 								<copy
 									todir="${project.build.directory}/${project.build.finalName}/"
 									overwrite="false">
-									<fileset dir="./" includes=".plattform/**" />
+									<fileset dir="./" includes=".platform/**" />
 								</copy>
 								<zip compress="false"
 									destfile="${project.build.directory}/${project.build.finalName}.jar"
