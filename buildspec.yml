@@ -10,5 +10,6 @@ phases:
       - echo Build completed succesfully
 artifacts:
   files:
+    - target/repository-reactive-consumidor-0.0.1-SNAPSHOT/.platform/**/*
     - target/repository-reactive-consumidor-0.0.1-SNAPSHOT.jar
   discard-paths: yes
